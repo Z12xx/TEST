@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Baca file HTML
-with open("index.html", "r", encoding="utf-8") as f:
+with open("html.html", "r", encoding="utf-8") as f:
     html_code = f.read()
 
 # Tampilkan di Streamlit
